@@ -3,20 +3,27 @@ import { AppBar, Toolbar, ListItem, IconButton, ListItemText, AvatarDivider, Lis
 import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
 import {makeStyles} from '@material-ui/styles';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
-import avatar from  '../images/avatar.png';
+import circle from '../images/neon_ring.png';
 
 
 const useStyles = makeStyles({
     menuSliderContainer: {
         width: 250,
-        background: "#133e7c",
-        height: "100%"
+        background: "#1a1a1a",
+        height: "100%",
+        borderLeft: "1px solid #ea00d9"
     },
     avatar: {
         display: "block",
         margin: "0.5rem auto",
         width: "100px",
         height: "100px",
+    },
+    circle: {
+        display: "block",
+        margin: "0.5rem auto",
+        width: "120px",
+        height: "120px"
     },
     listItem: {
         color: "#fff"
@@ -51,7 +58,7 @@ const Navbar = () => {
     const classes = useStyles();
     const sideList = slider => (
                 <Box className={classes.menuSliderContainer} component="div" onClick={toggleSlider(slider, false)}>
-            <Avatar className={classes.avatar} src={avatar} alt="Avatar-image" />
+            <Avatar className={classes.circle} src={circle} alt="Avatar-image" />
             <Divider />
             <List>
                 {menuItems.map((lsItem, key) =>(
@@ -69,7 +76,9 @@ const Navbar = () => {
 
     const barStyles = {
         position: "static",
-        background: "#711c91"
+        background: "#1a1a1a",
+        borderBottom: "1px solid #ea00d9",
+        textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
     }
     return (
         <>
