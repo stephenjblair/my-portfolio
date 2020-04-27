@@ -3,7 +3,7 @@ import { AppBar, Toolbar, ListItem, IconButton, ListItemText, AvatarDivider, Lis
 import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
 import {makeStyles} from '@material-ui/styles';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
-import circle from '../images/neon_ring.png';
+import circle from '../images/neonring_pink.png';
 
 
 const useStyles = makeStyles({
