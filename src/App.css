@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
-html {
-  background-color: #1a1a1a;
-  
-}
+
+
+/*body {
+  background: url('./images/neon_rain.jpg') no-repeat center center fixed;
+  -webkit-background: cover;
+  -moz-background: cover;
+  -o-background: cover;
+  background: cover;
+} */
+
+body {
+  background-color: #1a1a1a !important;
+} 

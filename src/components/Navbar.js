@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import {makeStyles} from '@material-ui/styles'; 
+import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import { AppBar, Toolbar, ListItem, IconButton, ListItemText, AvatarDivider, List, ListItemIcon, Typography, Box, Avatar, Divider } from '@material-ui/core';
 import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
-import {makeStyles} from '@material-ui/styles';
-import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import circle from '../images/neonring_pink.png';
 
 
@@ -33,11 +34,13 @@ const useStyles = makeStyles({
 const menuItems = [
     {
         listIcon: <Home />,
-        listText: "Home"
+        listText: "Home",
+        listPath: '/'
     },
     {
         listIcon: <AssignmentInd />,
-        listText: "Resume"
+        listText: "Resume",
+        listPath: "/resume"
     },
     {
         listIcon: <Apps />,
@@ -62,7 +65,7 @@ const Navbar = () => {
             <Divider />
             <List>
                 {menuItems.map((lsItem, key) =>(
-                <ListItem button key={key}>
+                <ListItem button key={key} component={Link} to={lsItem.listPath}>
                     <ListItemIcon className={classes.listItem}>
                         {lsItem.listIcon}
                     </ListItemIcon>
@@ -89,7 +92,7 @@ const Navbar = () => {
                         <ArrowBack style={{ color: "#ea00d9" }} />
                          </IconButton>
                          <Typography variant="h5">
-                            Portfolio
+                            stephen john blair 
                          </Typography>
                          <MobileRightMenuSlider anchor='right'
                              open={state.right}
@@ -103,4 +106,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;

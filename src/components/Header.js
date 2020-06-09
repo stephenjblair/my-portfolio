@@ -29,7 +29,7 @@ const Header = () => {
     return (
         <Box className={classes.typedContainer}>
             <Typography className={classes.title} variant="h4">
-                <Typed strings={["Stephen John Blair"]} typeSpeed={40} />
+                Stephen John Blair
             </Typography>
             <br/>
             <Typography className={classes.subTitle} variant="h5">

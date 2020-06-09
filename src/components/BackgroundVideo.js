@@ -1,6 +1,6 @@
 import React from 'react';
 
-import zoom from '../images/neon_zoom.mp4';
+import zoom from '../images/neon_zoom_comp.mp4';
 
 const BackgroudndVideo = () => {
     return (
