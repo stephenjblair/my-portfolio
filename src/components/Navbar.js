@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import {makeStyles} from '@material-ui/styles'; 
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import { AppBar, Toolbar, ListItem, IconButton, ListItemText, AvatarDivider, List, ListItemIcon, Typography, Box, Avatar, Divider } from '@material-ui/core';
-import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
+import {ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
 import circle from '../images/neonring_pink.png';
 
 
@@ -89,10 +89,10 @@ const Navbar = () => {
             <AppBar position="static" style={barStyles}>
                 <Toolbar>
                     <IconButton onClick={toggleSlider('right', true)}>
-                        <ArrowBack style={{ color: "#ea00d9" }} />
+                        <Apps style={{ color: "#ea00d9" }} />
                          </IconButton>
                          <Typography variant="h5">
-                            stephen john blair 
+                            Portfolio
                          </Typography>
                          <MobileRightMenuSlider anchor='right'
                              open={state.right}

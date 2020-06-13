@@ -5,7 +5,7 @@
 
     const useStyles = makeStyles(theme=>({
         mainContainer: {
-            background: "#233"  
+            background: "#262626"  
         },
         timeLine: {
             position: "relative",
@@ -15,7 +15,7 @@
                 content: "''",
                 position: "absolute",
                 height:  "100%",
-                border: "1px solid tan",
+                border: "1px solid #fe53bb",
                 right: "40px",
                 top: "0"
             },
@@ -32,12 +32,47 @@
                 }
             }
         },
+        timeLineItem: {
+            padding: "1rem",
+            borderBottom: "2px solid #ea00d9",
+            position: "relative",
+            margin: "1rem 3rem 1rem 1rem",
+            clear: "both",
+            "&:after": {
+                content: "''",
+                position: "absolute"
+            },
+            "&:before": {
+                content: "''",
+                position: "absolute",
+                right: "-0.625rem",
+                top: "calc(50% - 5px)",
+                borderStyle: "solid",
+                borderColor: "#ea00d9 #ea00d9 transparent transparent",
+                borderWidth: "0.625rem",
+                transform: "rotate(45deg)"
+            }, 
+            [theme.breakpoints.up("md")]: {
+                width: "44%",
+                margin: "1rem",
+                "&:nth-of-type(2n)": {
+                    float: "right",
+                    margin: "1rem",
+                    borderColor: "#ea00d9"
+                },
+                "&:nth-of-type(2n):before": {
+                    right: "auto",
+                    left: "-0.625rem",
+                    borderColor: "transparent transparent #fe53bb #fe53bb"
+                }
+            }
+        },
         timeLineYear: {
             textAlign: "center",
             maxWidth: "9.375rem",
             margin: "0 3 0 auto",
             fontSize: "1.8rem",
-            background: "tomato",
+            background: "#1a1a1a",
             color: "#fff",
             lineHeight: 1,
             padding: "0.5rem 0 1rem",
@@ -55,8 +90,18 @@
                     display: "none",
                 }
             }
-        }
-    }))
+        },
+        heading: {
+            color: "#fff",
+            padding: "3rem 0",
+            textTransform: "uppercase"
+        },
+        subHeading: {
+            color: "#08f7fe",
+            padding: "0",
+            textTransform: "uppercase"
+        },
+    }));
 
     const Resume = () => {
         const classes = useStyles();
@@ -64,14 +109,102 @@
             <>
             <Navbar />
             <Box component="header" className={classes.mainContainer}>
-                <Typography variant="h4" align="center">
-                    Working History 
+                <Typography variant="h4" align="center" className={classes.heading}>
+                    work history
                 </Typography>
                 <Box component="div" className={classes.timeLine}>
-                    <Typography variant="h2" className={classes.timeLineYear}>
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2020
                     </Typography>
-                </Box>  
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            web design
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
+                            company where worked
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
+                        </Typography>
+                        
+                    </Box> 
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2018
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            property manager
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
+                            druce prime residential, london
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
+                        </Typography>
+                        
+                    </Box> 
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2020
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            web design
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
+                            company where worked
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
+                        </Typography>
+                        
+                    </Box> 
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2020
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            web design
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
+                            company where worked
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
+                        </Typography>
+                        
+                    </Box> 
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2020
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            web design
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
+                            company where worked
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
+                        </Typography>
+                        
+                    </Box> 
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2020
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            web design
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
+                            company where worked
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
+                        </Typography>
+                        
+                    </Box> 
+            </Box>
+            
             </Box>
             </>
         )
