@@ -38,6 +38,7 @@ const Portfolio =() => {
                          A live COVID-19 data tracker using React and Charts.js.
                         </Typography>
                     </CardContent>
+                    </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary" href="https://github.com/stephenjblair/covid19-data" target="_blank">
                             GitHub
@@ -46,7 +47,7 @@ const Portfolio =() => {
                             Live Demo
                         </Button>
                     </CardActions>
-                </CardActionArea>
+                
             </Card>
             </Grid>
             {/* Project 2 */}
@@ -62,6 +63,7 @@ const Portfolio =() => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium.
                         </Typography>
                     </CardContent>
+                    </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
                             GitHub
@@ -70,7 +72,7 @@ const Portfolio =() => {
                             Live Demo
                         </Button>
                     </CardActions>
-                </CardActionArea>
+                
             </Card>    
             </Grid>
             {/* Project 3 */}
@@ -86,6 +88,7 @@ const Portfolio =() => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium.
                         </Typography>
                     </CardContent>
+                    </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
                             GitHub
@@ -94,7 +97,7 @@ const Portfolio =() => {
                             Live Demo
                         </Button>
                     </CardActions>
-                </CardActionArea>
+                
             </Card>
             </Grid>
             {/* Project 4 */}
@@ -110,6 +113,7 @@ const Portfolio =() => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium.
                         </Typography>
                     </CardContent>
+                    </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
                             GitHub
@@ -118,7 +122,7 @@ const Portfolio =() => {
                             Live Demo
                         </Button>
                     </CardActions>
-                </CardActionArea>
+                
             </Card>    
             </Grid>
             {/* Project 5 */}
@@ -134,6 +138,7 @@ const Portfolio =() => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium.
                         </Typography>
                     </CardContent>
+                    </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
                             GitHub
@@ -142,7 +147,7 @@ const Portfolio =() => {
                             Live Demo
                         </Button>
                     </CardActions>
-                </CardActionArea>
+                
             </Card>
             </Grid>
             {/* Project 6 */}
@@ -158,6 +163,7 @@ const Portfolio =() => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium.
                         </Typography>
                     </CardContent>
+                    </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
                             GitHub
@@ -166,7 +172,7 @@ const Portfolio =() => {
                             Live Demo
                         </Button>
                     </CardActions>
-                </CardActionArea>
+                
             </Card>    
             </Grid>
             {/* Project 7 */}
@@ -182,6 +188,7 @@ const Portfolio =() => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium.
                         </Typography>
                     </CardContent>
+                    </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
                             GitHub
@@ -190,7 +197,7 @@ const Portfolio =() => {
                             Live Demo
                         </Button>
                     </CardActions>
-                </CardActionArea>
+                
             </Card>
             </Grid>
             {/* Project 8 */}
@@ -206,6 +213,7 @@ const Portfolio =() => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium.
                         </Typography>
                     </CardContent>
+                    </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
                             GitHub
@@ -214,7 +222,7 @@ const Portfolio =() => {
                             Live Demo
                         </Button>
                     </CardActions>
-                </CardActionArea>
+                
             </Card>    
             </Grid>
             {/* Project 9 */}
@@ -230,6 +238,7 @@ const Portfolio =() => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium.
                         </Typography>
                     </CardContent>
+                    </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
                             GitHub
@@ -238,7 +247,7 @@ const Portfolio =() => {
                             Live Demo
                         </Button>
                     </CardActions>
-                </CardActionArea>
+               
             </Card>    
             </Grid>
         </Grid>
