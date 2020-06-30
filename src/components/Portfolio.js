@@ -2,7 +2,6 @@ import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import Navbar from  './Navbar';
 import { Box, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
-import reactLogo from '../images/reactLogo.png';
 import adviceApp from '../images/adviceApp.png';
 import covid from '../images/covid.png';
 import weather from '../images/weather.png';
@@ -11,6 +10,7 @@ import numbers from '../images/numbers.png';
 import party from '../images/party.png';
 import empire from '../images/empire.png';
 import movie from '../images/movie.png';
+import littleworld from '../images/littleworld.png';
 
 
 const useStyles = makeStyles({
@@ -241,21 +241,21 @@ const Portfolio =() => {
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
-                    <CardMedia component="img" alt="Project 1" height="140" image={reactLogo}/>
+                    <CardMedia component="img" alt="Project 1" image={littleworld}/>
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Project 9 
+                            Little World Market
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium.
+                            Commerical project for a vegetarian market and cafe using HTML, CSS, JS & Bootstrap
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
+                        <Button size="small" color="primary" href="https://github.com/stephenjblair/littleworld-final">
                             GitHub
                         </Button>
-                        <Button size="small" color="primary">
+                        <Button size="small" color="primary" href="https://www.littleworldmarket.co.uk/">
                             Live Demo
                         </Button>
                     </CardActions>
