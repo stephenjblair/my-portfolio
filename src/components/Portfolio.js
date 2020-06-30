@@ -16,15 +16,21 @@ import littleworld from '../images/littleworld.png';
 const useStyles = makeStyles({
     mainContainer: {
         background: "#262626",
-        height: "100%",
+        display: "flex",
+        flexDirection: "column"
 
     },
     cardContainer: {
-        minWidth: 400,
-        margin: "3rem 3rem 2rem 3rem",
+        width: "80%",
+        minHeight: "400px",
+        display: "block",
+        flex: 1,
+        textAlign: "inherit",
         border: "1px solid #ea00d9",
-        padding: "0.5rem"
-    },
+        margin: " 3rem 2rem 2rem 3rem",
+        padding: "0.5rem",
+        },
+
     cardImage: {
         width: "100%",
         height: "auto",
@@ -247,7 +253,7 @@ const Portfolio =() => {
                             Little World Market
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            Commerical project for a vegetarian market and cafe using HTML, CSS, JS & Bootstrap
+                            Commerical project for a vegetarian market and cafeusing HTML, CSS, JS & Bootstrap
                         </Typography>
                     </CardContent>
                     </CardActionArea>

@@ -17,9 +17,13 @@ const useStyles = makeStyles((theme)    =>({
         color: "#fff",
         borderColor: "#fe53bb",
         fontSize: "1.2rem",
+        width: "25vw",
+        marginLeft: "25%",
+        marginRight: "25%"
+        
     },
     fields: {
-        width: "75vw",
+        width: "50vw",
     },
 
 }));
@@ -58,7 +62,7 @@ const Contacts = () => {
                         hire or contact me
                     </Typography>
                     <InputField className ={classes.fields} fullWidth={true} label="Name" variant="outlined" inputProps={{ style: { color:  "white"}}} margin="dense" size="medium" /> <br />
-                    <InputField fullWidth={true} label="EMail" variant="outlined" inputProps={{ style: { color:  "#fff"}}}  margin="dense" size="medium" /> <br/>
+                    <InputField fullWidth={true} label="Email" variant="outlined" inputProps={{ style: { color:  "#fff"}}}  margin="dense" size="medium" /> <br/>
                     <InputField fullWidth={true} label="Company Name" variant="outlined" inputProps={{ style: { color:  "#fff"}}}   margin="dense" size="medium"/> <br/>
                     <Button className={classes.button} variant="outlined" fullWidth={true} endIcon={<ArrowForward />}>
                         contact me 
