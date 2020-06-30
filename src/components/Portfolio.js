@@ -29,6 +29,7 @@ const useStyles = makeStyles({
         border: "1px solid #ea00d9",
         margin: " 3rem 2rem 2rem 3rem",
         padding: "0.5rem",
+        
         },
 
     cardImage: {

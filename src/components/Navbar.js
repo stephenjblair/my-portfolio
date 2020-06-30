@@ -11,8 +11,7 @@ const useStyles = makeStyles({
     menuSliderContainer: {
         width: 250,
         background: "#1a1a1a",
-        height: "100%",
-        borderRight: "1px solid #ea00d9"
+        height: "100%"
     },
     avatar: {
         display: "block",

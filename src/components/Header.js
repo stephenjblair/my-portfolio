@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles} from '@material-ui/core/styles';
+import { makeStyles, withStyles} from '@material-ui/core/styles';
 import { Typography, Box } from '@material-ui/core';
 import Typed from 'react-typed';
 
@@ -24,11 +24,12 @@ const useStyles = makeStyles(theme => ({
         zIndex: "1"
     },
 }))
+
 const Header = () => {
     const classes = useStyles()
     return (
         <Box className={classes.typedContainer}>
-            <Typography className={classes.title} variant="h4">
+            <Typography  className={classes.title} variant="h4">
                 STEPHEN JOHN BLAIR
             </Typography>
             <br/>

@@ -34,7 +34,6 @@
         },
         timeLineItem: {
             padding: "1rem",
-            borderBottom: "2px solid #ea00d9",
             position: "relative",
             margin: "1rem 3rem 1rem 1rem",
             clear: "both",
@@ -72,7 +71,7 @@
             maxWidth: "9.375rem",
             margin: "0 3 0 auto",
             fontSize: "1.8rem",
-            background: "#1a1a1a",
+            background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
             color: "#fff",
             lineHeight: 1,
             padding: "0.5rem 0 1rem",
@@ -97,7 +96,7 @@
             textTransform: "uppercase"
         },
         subHeading: {
-            color: "#08f7fe",
+            color: "#FE6B8B",
             padding: "0",
             textTransform: "uppercase"
         },
@@ -118,13 +117,19 @@
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
-                            web design
+                            Project Manager
                         </Typography>
                         <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
-                            company where worked
+                            Posh Pods North West Ltd
                         </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
+                        <Typography variant="subtitle1" align="left" style={{color: "#fff"}}>
+                            <ul>
+                                <li>Maximised customer satisfaction through effective operational management aligned with quality standards and customer requirements.</li>
+                                <li>Evaluated product and process disadvantages and suggested solutions including changes to processes, products or quality standards where warranted.</li>
+                                <li>Improved advertising initiatives by executing social media and digital marketing campaigns.
+                                Served as single point of contact for project scheduling and changes.</li>
+                                <li>Interviewed and hired top contractor talent to complete projects on-time and under-budget.</li>
+                            </ul>
                         </Typography>
                         
                     </Box> 
