@@ -97,6 +97,7 @@ const Navbar = () => {
                 <Toolbar>
                     <IconButton onClick={toggleSlider('left', true)}>
                         <Apps style={{ color: "#ea00d9" }} />
+                        
                          </IconButton>
                          <MobileLeftMenuSlider anchor='left'
                              open={state.left}

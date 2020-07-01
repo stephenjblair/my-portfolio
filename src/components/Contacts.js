@@ -81,7 +81,8 @@ class Contacts extends Component  {
                 contact_number: "",
                 message: "",
             });
-            
+            alert('Your email has been sent!');
+            e.target.reset();
         };
         render(){
             return (
@@ -90,13 +91,19 @@ class Contacts extends Component  {
                 <Box component="div" style={{background: "#262626", height: "100vh"}}>
                     <Grid container justify="center">
                         <Box component="form" onSubmit={this.handleSubmit.bind(this)} className="contact_form_class">
+
                             <Typography variant="h5" style={{ color: "#fff", textAlign: "center", textTransform: "uppercase", margin: "6rem 0 3rem 0"}}>
                                 hire or contact me
                             </Typography>
+
                             <InputField  fullWidth={true} label="Name" id="name" name="name" value={this.state.name} onChange={this.handleChange.bind(this)} variant="outlined" inputProps={{ style: { color:  "white", width: "50vw"}}} margin="dense" size="medium" /> <br />
+
                             <InputField fullWidth={true} label="Email" id="email" name="email" value={this.state.email} onChange={this.handleChange.bind(this)} variant="outlined" inputProps={{ style: { color:  "#fff"}}}  margin="dense" size="medium" /> <br/>
+
                             <InputField fullWidth={true} label="Contact Number" id="contact_number" name="contact_number" value={this.state.contact_number} onChange={this.handleChange.bind(this)} variant="outlined" inputProps={{ style: { color:  "#fff"}}}   margin="dense" size="medium"/> <br/>
+
                             <InputField fullWidth={true} label="Message" id="message" name="message" value={this.state.message} onChange={this.handleChange.bind(this)} variant="outlined" inputProps={{ style: { color:  "#fff"}}}   margin="dense" size="medium"/> <br/>
+
                             <StyledButton type="submit" onSubmit={this.handleSubmit.bind(this)} 
                             style={{ color: "fff" }} fullWidth={true} endIcon={<ArrowForward />}>
                                 contact me 

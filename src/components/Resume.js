@@ -124,11 +124,64 @@
                         </Typography>
                         <Typography variant="subtitle1" align="left" style={{color: "#fff"}}>
                             <ul>
-                                <li>Maximised customer satisfaction through effective operational management aligned with quality standards and customer requirements.</li>
-                                <li>Evaluated product and process disadvantages and suggested solutions including changes to processes, products or quality standards where warranted.</li>
-                                <li>Improved advertising initiatives by executing social media and digital marketing campaigns.
-                                Served as single point of contact for project scheduling and changes.</li>
-                                <li>Interviewed and hired top contractor talent to complete projects on-time and under-budget.</li>
+                            <h4>WEB DEVELOPMENT</h4>
+            
+                            <li> Designed, implemented and monitored web pages and sites
+                            for continuous improvement in a fast-paced environment. </li>
+                            
+                            <li>Oversaw troubleshooting of technical issues to solve
+                            problems within a reasonable time frame. </li>
+                            
+                            <li>Converted mock-ups into HTML, JavaScript and CSS.
+                            Completed full redesigns of existing websites to improve
+                            navigation, enhance visuals and strengthen search engine
+                            rankings. </li>
+                        
+                            <li>Kept abreast of emerging technologies, software and trends,
+                            and applied them to projects. </li>
+
+                            <h4>GENERAL DUTIES </h4>
+                                
+                            <li>Maximised customer satisfaction through effective
+                            operational management aligned with quality standards and
+                            customer requirements.</li>
+            
+                            <li>Evaluated product and process disadvantages and suggested
+                            solutions including changes to processes, products or quality
+                            standards where warranted. </li>
+
+                            <li>Improved advertising initiatives by executing social media
+                            and digital marketing campaigns. </li>
+
+                            <li>Served as single point of contact for project scheduling and
+                            changes.</li>
+                        
+                            <li>Interviewed and hired top contractor talent to complete
+                            projects on-time and under-budget.</li> 
+
+                            <li>Built strong community relations with subcontractors and
+                            vendors to optimise cost savings and ensure timely
+                            pre-construction completion. </li>
+
+                            <li>Upheld quality standards by monitoring and correcting work.
+                            Managed projects to successful completion and closeout,
+                            including equipment and certificate securement. </li>
+
+                            <li>Conducted technical and customer meetings to increase
+                            communication and strengthen internal and external
+                            relationships. </li>
+
+                            <li>Modified layouts and promotional techniques to drive sales.
+                            Supervised project schedules to meet key milestones at
+                            every phase. </li>
+
+                            <li>Led strategic planning sessions for site engineering, building
+                            design, and construction management. </li>
+
+                            <li>Elevated new business opportunities by implementing
+                            effective networking strategies. </li>
+                            
+                            <li>Established relationships with construction manager and contractors to align priorities, goals and objectives. </li>
                             </ul>
                         </Typography>
                         
@@ -138,76 +191,63 @@
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
-                            property manager
+                            Property manager
                         </Typography>
                         <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
-                            druce prime residential, london
+                            Druce Prime residential, London
                         </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
+                        <Typography variant="subtitle1" align="left" style={{color: "#fff"}}>
+                           <ul>
+                            <li>Collected, completed, and processed lease applications.
+                            Established key relationships with potential leasers and
+                            renters. </li>
+                            
+                            <li>Created and submitted daily reports on leasing activities.</li>
+
+                            <li> Ensured property is attractive and appealing for prospects. </li>
+
+                            <li> Managed Inventory and property inspection documents for
+                            permanent records and regulatory requirements. </li>
+
+                            <li> Conducted inspections of property grounds, buildings and
+                            equipment to identify maintenance concerns and direct
+                            timely repairs. </li>
+                        
+                            <li>Kept properties in compliance with local, state and federal
+                            regulations, including prohibiting any form of discrimination
+                            in operational practices. </li>
+                            </ul>
                         </Typography>
                         
                     </Box> 
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2020
+                        2006
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
-                            web design
+                            Personal Trainer & Assistant Manager
                         </Typography>
                         <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
-                            company where worked
+                            Fitness First Australia, Sydney
                         </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
+                        <Typography variant="subtitle1" align="left" style={{color: "#fff"}}>
+                            <ul>
+                                <li>Designed specific workout systems for individual clients based on performance ability.</li>
+
+                                <li>Provided clients with safe and reasonable exercises to be performed at home or in gym settings.</li>
+
+                                <li>Screened clients and performed client assessments. </li>
+
+                                <li>Supplied clients with dietary restrictions and guidelines. </li>
+
+                                <li>Grew customer base through word-of-mouth referrals based on customer satisfaction and results.</li>
+
+                                <li>Educated customers on preventative care, nutrition, fitness, stress management and ergonomics.</li>
+                                <li> Assistant mangement, recruitment, education and growth of original team of 10 person trainers to 42. </li>
+                            </ul> 
                         </Typography>
+                        </Box>
                         
-                    </Box> 
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2020
-                    </Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align="center" className={classes.subHeading}>
-                            web design
-                        </Typography>
-                        <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
-                            company where worked
-                        </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
-                        </Typography>
-                        
-                    </Box> 
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2020
-                    </Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align="center" className={classes.subHeading}>
-                            web design
-                        </Typography>
-                        <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
-                            company where worked
-                        </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
-                        </Typography>
-                        
-                    </Box> 
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2020
-                    </Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align="center" className={classes.subHeading}>
-                            web design
-                        </Typography>
-                        <Typography variant="body1" align="center" style={{color: "#fe53bb"}}>
-                            company where worked
-                        </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color: "#fff"}}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima assumenda iste ullam, vero esse laudantium doloribus animi. Recusandae, ut.
-                        </Typography>
-                        
-                    </Box> 
             </Box>
             
             </Box>
