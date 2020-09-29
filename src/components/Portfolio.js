@@ -3,7 +3,7 @@ import {makeStyles} from '@material-ui/core/styles';
 import Navbar from  './Navbar';
 import { Box, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
 import adviceApp from '../images/adviceApp.png';
-import covid from '../images/covid.png';
+import instaclone from '../images/instaclone.png';
 import weather from '../images/weather.png';
 import poshpods from '../images/poshpods.png';
 import numbers from '../images/numbers.png';
@@ -47,21 +47,21 @@ const Portfolio =() => {
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
-                    <CardMedia className={classes.cardImage} component="img" alt="Project 1" height="200" image={covid}/>
+                    <CardMedia className={classes.cardImage} component="img" alt="Project 1" height="200" image={instaclone}/>
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            COVID-19 Data Tracker
+                            Instagram Clone
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                         A live COVID-19 data tracker using React and Charts.js.
+                         Fully deployed Instagram Clone using React & Firebase
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary" href="https://github.com/stephenjblair/covid19-data" target="_blank">
+                        <Button size="small" color="primary" href="https://github.com/stephenjblair/instagram-clone" target="_blank">
                             GitHub
                         </Button>
-                        <Button size="small" color="primary" href="https://covid19-data-mhaekxwhw.now.sh/" target="_blank">
+                        <Button size="small" color="primary" href="https://instagram-clone-ceada.web.app/" target="_blank">
                             Live Demo
                         </Button>
                     </CardActions>
@@ -69,31 +69,6 @@ const Portfolio =() => {
             </Card>
             </Grid>
             {/* Project 2 */}
-            <Grid item xs={12} sm={8} md={4}>
-            <Card className={classes.cardContainer}>
-                <CardActionArea>
-                    <CardMedia className={classes.cardImage} component="img" alt="Project 1"  image={adviceApp}/>
-                    <CardContent>
-                        <Typography gutterBottom variant="h5">
-                            Advice App
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Gain some wisdom from this advice app, using React and the Advice Slip Json API.
-                        </Typography>
-                    </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Button size="small" color="primary" href="https://github.com/stephenjblair/advice-app" target="_blank">
-                            GitHub
-                        </Button>
-                        <Button size="small" color="primary" href="https://advice-app-pi.now.sh/">
-                            Live Demo
-                        </Button>
-                    </CardActions>
-                
-            </Card>    
-            </Grid>
-            {/* Project 3 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
@@ -118,6 +93,33 @@ const Portfolio =() => {
                 
             </Card>
             </Grid>
+             {/* Project 3 */}
+            <Grid item xs={12} sm={8} md={4}>
+            <Card className={classes.cardContainer}>
+                <CardActionArea>
+                    <CardMedia className={classes.cardImage} component="img" alt="Project 1"  image={adviceApp}/>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5">
+                            Advice App
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                            Gain some wisdom from this advice app, using React and the Advice Slip Json API.
+                        </Typography>
+                    </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                        <Button size="small" color="primary" href="https://github.com/stephenjblair/advice-app" target="_blank">
+                            GitHub
+                        </Button>
+                        <Button size="small" color="primary" href="https://advice-app-pi.now.sh/">
+                            Live Demo
+                        </Button>
+                    </CardActions>
+                
+            </Card>    
+            </Grid>
+           
+
             {/* Project 4 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
@@ -128,7 +130,7 @@ const Portfolio =() => {
                             Posh Pods 
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            Commerical project using React, Express, Node and MongoDB. (Still in development)
+                            Commerical project using React and Hubspot CRM integration. (Still in development)
                         </Typography>
                     </CardContent>
                     </CardActionArea>
@@ -147,27 +149,29 @@ const Portfolio =() => {
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
-                    <CardMedia component="img" alt="Project 1" image={numbers}/>
+                    <CardMedia component="img" alt="Project 1"  image={empire}/>
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Numbers Game
+                            Empire of the Sun
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            A simple numbers game for state management using React.
+                            My first website! Band fan page using HTML, CSS and JS.
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary" href="https://github.com/stephenjblair/numbers-game">
+                        <Button size="small" color="primary" href="https://github.com/stephenjblair/ucd-project">
                             GitHub
                         </Button>
-                        <Button size="small" color="primary" href="https://numbers-game-zeta.now.sh/">
+                        <Button size="small" color="primary" href="https://ucd-project.now.sh/">
                             Live Demo
                         </Button>
                     </CardActions>
                 
             </Card>
             </Grid>
+
+           
             {/* Project 6 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
@@ -197,27 +201,28 @@ const Portfolio =() => {
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
-                    <CardMedia component="img" alt="Project 1"  image={empire}/>
+                    <CardMedia component="img" alt="Project 1" image={numbers}/>
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Empire of the Sun
+                            Numbers Game
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            My first website! Band fan page using HTML, CSS and JS.
+                            A simple numbers game for state management using React.
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary" href="https://github.com/stephenjblair/ucd-project">
+                        <Button size="small" color="primary" href="https://github.com/stephenjblair/numbers-game">
                             GitHub
                         </Button>
-                        <Button size="small" color="primary" href="https://ucd-project.now.sh/">
+                        <Button size="small" color="primary" href="https://numbers-game-zeta.now.sh/">
                             Live Demo
                         </Button>
                     </CardActions>
                 
             </Card>
             </Grid>
+
             {/* Project 8 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
