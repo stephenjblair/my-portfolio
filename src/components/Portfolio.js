@@ -3,6 +3,7 @@ import {makeStyles} from '@material-ui/core/styles';
 import Navbar from  './Navbar';
 import { Box, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
 import adviceApp from '../images/adviceApp.png';
+import beachResort from '../images/beach-resort.png'
 import instaclone from '../images/instaclone.png';
 import weather from '../images/weather.png';
 import poshpods from '../images/poshpods.png';
@@ -43,7 +44,32 @@ const Portfolio =() => {
         <Box component="div" className={classes.mainContainer}>
             <Navbar />
         <Grid container justify="center" align-items="center">
-            {/* Project 1 */}
+                        {/* Project 1 */}
+                        <Grid item xs={12} sm={8} md={4}>
+            <Card className={classes.cardContainer}>
+                <CardActionArea>
+                    <CardMedia className={classes.cardImage} component="img" alt="Project 1" height="200" image={beachResort}/>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5">
+                            Beach Resort
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                         Luxury room finder using React, Context API and Contenful.
+                        </Typography>
+                    </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                        <Button size="small" color="primary" href="https://github.com/stephenjblair/beach-resort" target="_blank">
+                            GitHub
+                        </Button>
+                        <Button size="small" color="primary" href="https://beach-resort-nine.vercel.app/" target="_blank">
+                            Live Demo
+                        </Button>
+                    </CardActions>
+                
+            </Card>
+            </Grid>
+            {/* Project 2 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
@@ -68,7 +94,7 @@ const Portfolio =() => {
                 
             </Card>
             </Grid>
-            {/* Project 2 */}
+            {/* Project 3 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
@@ -93,7 +119,7 @@ const Portfolio =() => {
                 
             </Card>
             </Grid>
-             {/* Project 3 */}
+             {/* Project 4 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
@@ -120,7 +146,7 @@ const Portfolio =() => {
             </Grid>
            
 
-            {/* Project 4 */}
+            {/* Project 5 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
@@ -130,7 +156,7 @@ const Portfolio =() => {
                             Posh Pods 
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            Commerical project using React and Hubspot CRM integration. (Still in development)
+                            Commerical project using React and Hubspot CRM integration. 
                         </Typography>
                     </CardContent>
                     </CardActionArea>
@@ -138,14 +164,14 @@ const Portfolio =() => {
                         <Button size="small" color="primary" href="https://github.com/stephenjblair/posh-pods-website">
                             GitHub
                         </Button>
-                        <Button size="small" color="primary" href="https://posh-pods-website.vercel.app/">
+                        <Button size="small" color="primary" href="https://www.poshpods.com">
                             Live Demo
                         </Button>
                     </CardActions>
                 
             </Card>    
             </Grid>
-            {/* Project 5 */}
+            {/* Project 6 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
@@ -172,7 +198,7 @@ const Portfolio =() => {
             </Grid>
 
            
-            {/* Project 6 */}
+            {/* Project 7 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
@@ -197,7 +223,7 @@ const Portfolio =() => {
                 
             </Card>    
             </Grid>
-            {/* Project 7 */}
+            {/* Project 8 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
@@ -223,7 +249,7 @@ const Portfolio =() => {
             </Card>
             </Grid>
 
-            {/* Project 8 */}
+            {/* Project 9 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
@@ -248,7 +274,7 @@ const Portfolio =() => {
                 
             </Card>    
             </Grid>
-            {/* Project 9 */}
+            {/* Project 10 */}
             <Grid item xs={12} sm={8} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>

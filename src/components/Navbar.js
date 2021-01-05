@@ -48,7 +48,7 @@ const menuItems = [
     },
     {
         listIcon: <ContactMail/>,
-        listText: "Contacts",
+        listText: "Contact",
         listPath: "/contacts"
     },
     {
@@ -88,8 +88,9 @@ const Navbar = () => {
         position: "static",
         background: "#1a1a1a",
         borderBottom: "1px solid #ea00d9",
-        textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
+        textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
     }
+
     return (
         <>
         <Box component="nav">
