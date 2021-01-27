@@ -1,44 +1,60 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { Typography, Box } from '@material-ui/core';
-import Typed from 'react-typed';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import { Typography, Box } from "@material-ui/core";
+import Typed from "react-typed";
 
-
-const useStyles = makeStyles(theme => ({
-    title: {
-        color: '#fff',
-        textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
-    },
-    subTitle: {
-        color: "#fff",
-        textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
-        marginBottom: "3rem"
-    },
-    typedContainer: {
-        position: "absolute",
-        top: "50%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
-        width: "100vw",
-        textAlign: "center",
-        zIndex: "1"
-    },
-}))
+const useStyles = makeStyles((theme) => ({
+  title: {
+    color: "#fff",
+    textShadow:
+      "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+  },
+  subTitle: {
+    color: "#fff",
+    textShadow:
+      "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+    marginBottom: "3rem",
+  },
+  typedContainer: {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: "100vw",
+    textAlign: "center",
+    zIndex: "1",
+  },
+}));
 
 const Header = () => {
-    const classes = useStyles()
-    return (
-        <Box className={classes.typedContainer}>
-            <Typography  className={classes.title} variant="h4">
-                STEPHEN JOHN BLAIR
-            </Typography>
-            <br/>
-            <Typography className={classes.subTitle} variant="h5">
-                <Typed 
-                strings={["Web Design", "Web Development", "JavaScript", "React", "Material UI", "Bootstrap", "Node.js", "Express.js", "MongoDB", "Firebase"]} typeSpeed={40} backSpeed={60} loop/>
-            </Typography>
-        </Box>
-    );
+  const classes = useStyles();
+  return (
+    <Box className={classes.typedContainer}>
+      <Typography className={classes.title} variant="h4">
+        STEPHEN JOHN BLAIR
+      </Typography>
+      <br />
+      <Typography className={classes.subTitle} variant="h5">
+        <Typed
+          strings={[
+            "Web Design",
+            "Web Development",
+            "JavaScript",
+            "React",
+            "Material UI",
+            "Bootstrap",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Firebase",
+          ]}
+          typeSpeed={40}
+          backSpeed={60}
+          loop
+        />
+      </Typography>
+    </Box>
+  );
 };
 
-export default Header; 
+export default Header;
